@@ -17,3 +17,9 @@ The sources I used to construct this data are:
 Boundaries of the four former provinces of South Africa as they were at the creation of the Union in 1910 (and as they remained until the Transkei was made nominally independent in 1976).
 
 I constructed this several years ago, so I don't recall the exact sources I used. The boundary of the OFS is the same as current provincial boundaries, as is the northern border of Natal (except the eastern end around Simandlengentsha and Pongola). The Cape–Natal boundary still corresponds to current municipal boundaries. I think I digitized the Cape–Transvaal boundary from old Trig Survey maps.
+
+## provinces-1994.geojson
+
+Boundaries of the provinces of South Africa as they were under the Interim Constitution in 1994 (and remained until 2006).
+
+This is from an offical shapefile though I am not sure where exactly I received it from. I made one correction; the official shapefile showed the farms Drumleary 130 and Stanford 127 (near Matatiele) as a small exclave of KZN surrounded by the Eastern Cape, but it is clear from the text of the Interim Constitution that these farms were indeed included in the Eastern Cape.
