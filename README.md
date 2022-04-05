@@ -2,7 +2,7 @@ This repo is a collection of geospatial data relating to past political/administ
 
 ## bophuthatswana.geojson
 
-This file contains the boundaries of the former nominally independent [Republic of Bophuthatswana](https://en.wikipedia.org/wiki/Bophuthatswana), from its independence in 1977 until its reinclusion in South Africa in 1994.
+This file contains the boundaries of the former  [Republic of Bophuthatswana](https://en.wikipedia.org/wiki/Bophuthatswana), from its nominal independence in 1977 until its reinclusion in South Africa in 1994.
 
 The sources I used to construct this data are:
 * Historic maps of the 1:50,000 and 1:250,000 series published by the Trigonometrical Survey Office (now the Chief Directorate: National Geo-spatial Information), which can be download from the [CDNGI Geospatial Portal](https://en.wikipedia.org/wiki/Bophuthatswana).
@@ -14,6 +14,6 @@ The sources I used to construct this data are:
 
 ## provinces-1910.geojson
 
-Boundaries of the four former provinces of South Africa as they were at the creation of the Union in 1910 (and as they remained until the Transkei was nominally made independent in 1976).
+Boundaries of the four former provinces of South Africa as they were at the creation of the Union in 1910 (and as they remained until the Transkei was made nominally independent in 1976).
 
 I constructed this several years ago, so I don't recall the exact sources I used. The boundary of the OFS is the same as current provincial boundaries, as is the northern border of Natal (except the eastern end around Simandlengentsha and Pongola). The Cape–Natal boundary still corresponds to current municipal boundaries. I think I digitized the Cape–Transvaal boundary from old Trig Survey maps.
