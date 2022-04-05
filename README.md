@@ -2,7 +2,7 @@ This repo is a collection of geospatial data relating to past political/administ
 
 ## bophuthatswana.geojson
 
-This file contains the boundaries of the former nominally-independent [Republic of Bophuthatswana](https://en.wikipedia.org/wiki/Bophuthatswana), from its independence in 1977 until its reinclusion in South Africa in 1994.
+This file contains the boundaries of the former nominally independent [Republic of Bophuthatswana](https://en.wikipedia.org/wiki/Bophuthatswana), from its independence in 1977 until its reinclusion in South Africa in 1994.
 
 The sources I used to construct this data are:
 * Historic maps of the 1:50,000 and 1:250,000 series published by the Trigonometrical Survey Office (now the Chief Directorate: National Geo-spatial Information), which can be download from the [CDNGI Geospatial Portal](https://en.wikipedia.org/wiki/Bophuthatswana).
@@ -11,3 +11,9 @@ The sources I used to construct this data are:
 * Cadastral boundary data from the Office of the Chief-Surveyor General; the easiest source for this is [from PlanetGIS](https://planetgis.co.za/browse.php?id=11).
 * Cadastral survey diagrams, which can be downloaded from the [CSG website](http://csg.drdlr.gov.za/esio/searchindex.htm).
 * Hattingh, P.S. (1977). ["Bophuthatswana at a Glance"](https://journals.co.za/doi/pdf/10.10520/AJA02562804_1073). *South African Journal of African Affairs*. **7** (2): 213–219. (used to confirm one particularly tricky detail).
+
+## provinces-1910.geojson
+
+Boundaries of the four former provinces of South Africa as they were at the creation of the Union in 1910 (and as they remained until the Transkei was nominally made independent in 1976).
+
+I constructed this several years ago, so I don't recall the exact sources I used. The boundary of the OFS is the same as current provincial boundaries, as is the northern border of Natal (except the eastern end around Simandlengentsha and Pongola). The Cape–Natal boundary still corresponds to current municipal boundaries. I think I digitized the Cape–Transvaal boundary from old Trig Survey maps.
