@@ -1,16 +1,19 @@
 This repo is a collection of geospatial data relating to past political/administrative boundaries in South Africa which I have obtained or digitized from various sources.
 
-## bophuthatswana.geojson
+## TBVC boundaries
 
-This file contains the boundaries of the former  [Republic of Bophuthatswana](https://en.wikipedia.org/wiki/Bophuthatswana), from its nominal independence in 1977 until its reinclusion in South Africa in 1994.
+The `tbvc` directory contains GeoJSON files describing the boundaries of the former Republics of Transkei, Bophuthatswana, Venda, and Ciskei. These four states received nominal independence from South Africa between 1976 and 1981, under the apartheid government's policy of "separate development". Their independence was not recognized by any other countries. All four were reintegrated into South Africa on 27 April 1994.
+
+Each file contains a series of multipolygons, one representing the extent of the territory at the date of nominal independence, and the rest representing areas ceded by South Africa to the state after independence. In the case of Bophuthatswana there is also one polygon representing an area retroceded back to South Africa.
 
 The sources I used to construct this data are:
-* Historic maps of the 1:50,000 and 1:250,000 series published by the Trigonometrical Survey Office (now the Chief Directorate: National Geo-spatial Information), which can be download from the [CDNGI Geospatial Portal](https://en.wikipedia.org/wiki/Bophuthatswana).
+* Historic maps of the 1:50,000 and 1:250,000 series published by the Trigonometrical Survey Office (now the Chief Directorate: National Geo-spatial Information), which can be download from the [CDNGI Geospatial Portal](http://www.cdngiportal.co.za/cdngiportal/).
+* The agreement between the governments of South Africa and Venda concerning international boundaries, published under Government Notice No. R.2014 of 1979.
+* The agreement between the governments of South Africa and Ciskei concerning international boundaries, published under Government Notice No. R.961 of 1982.
 * The Bophuthatswana Border Extension Act, No. 8 of 1978.
-* The Borders of Particular States Extension Act, No. 2 of 1980, and the proclamations made under the act (numbers R180 of 1980, R258 and R259 of 1981, R142 and 212 of 1983, 109 of 1984, R23 and R222 of 1986, R137 of 1987, 43 and R220 of 1988, 4 and R98 of 1989, 70 of 1990, and 103 of 1991).
+* The Borders of Particular States Extension Act, No. 2 of 1980, its amendment acts, and the proclamations made under the act (details of which are given in the "descrip" field in each GeoJSON file).
 * Cadastral boundary data from the Office of the Chief-Surveyor General; the easiest source for this is [from PlanetGIS](https://planetgis.co.za/browse.php?id=11).
 * Cadastral survey diagrams, which can be downloaded from the [CSG website](http://csg.drdlr.gov.za/esio/searchindex.htm).
-* Hattingh, P.S. (1977). ["Bophuthatswana at a Glance"](https://journals.co.za/doi/pdf/10.10520/AJA02562804_1073). *South African Journal of African Affairs*. **7** (2): 213–219. (used to confirm one particularly tricky detail).
 
 ## provinces-1910.geojson
 
